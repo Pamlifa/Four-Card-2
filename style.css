@@ -28,7 +28,8 @@ span {
   font-weight: 200;
 }
 p {
-  line-height: 1.8;
+  font-weight: 300;
+  line-height: 1.5;
   color: hsl(229, 6%, 66%);
   margin-bottom: 3rem;
 }
@@ -79,10 +80,11 @@ article {
   }
   h1 {
     font-size: 2rem;
+    font-weight: 600;
   }
 
   .cards {
-    max-width: 900px;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr, 1fr, 1fr, 1fr;
